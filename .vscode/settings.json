@@ -1,0 +1,71 @@
+{
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "cSpell.words": [
+    "btad",
+    "bytree",
+    "carbocycles",
+    "casf",
+    "colsample",
+    "cornflowerblue",
+    "cuda",
+    "dask",
+    "dataframe",
+    "dataframes",
+    "dfcompare",
+    "dtypes",
+    "figsize",
+    "floatfmt",
+    "heterocycles",
+    "iloc",
+    "importnb",
+    "incomp",
+    "ipynb",
+    "isin",
+    "joblib",
+    "jupyter",
+    "ligprop",
+    "lipinski",
+    "loky",
+    "nbformat",
+    "nhoh",
+    "pdbbind",
+    "pearson",
+    "pearsonr",
+    "pkds",
+    "rdkit",
+    "resname",
+    "rmse",
+    "royalblue",
+    "scikit",
+    "sharey",
+    "skiprows",
+    "squarederror",
+    "tpsa",
+    "tqdm",
+    "xgboost",
+    "xticklabels",
+    "xticks"
+  ],
+  "flake8.args": [
+    "--config=setup.cfg"
+  ],
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "notebook.formatOnSave.enabled": true,
+  "pylint.args": [
+    "--rcfile=.pylintrc"
+  ],
+  "python.analysis.extraPaths": [
+    "src"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.languageServer": "Pylance"
+}
